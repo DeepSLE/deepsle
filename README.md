@@ -9,4 +9,14 @@ Please refer to the requirements.txt file, and install the necessary dependencie
 pip install -r requirements.txt
 ```
 ## Pre-training
-The system was pretrained using the same model architecture and configurations as [RETFound](https://github.com/rmaphoh/RETFound_MAE), details could be refer to [RETFound Paper](https://www.nature.com/articles/s41586-023-06555-x)
+The system was pretrained using the same model architecture and configurations as [RETFound](https://github.com/rmaphoh/RETFound_MAE), but using our own curated dataset. Details could be refer to [RETFound Paper](https://www.nature.com/articles/s41586-023-06555-x)
+
+## Training 
+```bash
+python train.py
+```
+
+## Testing
+```bash
+python test.py
+```
