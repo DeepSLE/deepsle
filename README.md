@@ -13,7 +13,7 @@ The system was pretrained using the same model architecture and configurations a
 
 ## Training 
 ```bash
-python train.py
+python train_bwce.py
 ```
 
 ## Testing
